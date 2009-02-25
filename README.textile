@@ -1,0 +1,24 @@
+h1. connect.sh
+
+Simple file for quick ssh logins from the console.
+
+h2. Requirements
+
+# Bash
+# Gawk
+
+h2. Installation
+
+Make sure _connect.sh_ is in your path and executable. Make sure you have a ~/.connect file
+that has a number of hosts to connect to.
+
+h2. .connect Format
+
+A sample .connect file is provided in the repo. The format looks like this:
+
+  -- Headers start with 2 hyphens
+  ip address or hostname[:optional port],Descriptive name
+
+h2. LICENSE
+
+Take it or leave it, if it doesn't work then fork and fix it
